@@ -1,0 +1,168 @@
+/* Header */
+#header{
+    background-color: #e74c3c;
+    color: #fff;
+}
+#logo{
+    font-size: 2rem;
+    margin-top: 0.5vw;
+}
+#menu{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+#menu li a{
+    color: #fff;
+    padding: 1.2vw;
+    display: block;
+    text-decoration: none;
+}
+#menu li a:hover{
+    background-color: #c0392b;
+}
+/* plant */
+#banner{
+    background: url(./img/plant.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+}
+.banner-title{
+    padding-top: 5rem;
+}
+.banner-title h1{
+    background: #ffffffa9;
+    display: inline-block;
+    padding: 10px;
+    margin: 0;
+}
+.banner-title p.lead{
+    color: #fff;
+    background-color: #c03a2ba8;
+    padding: 10px;
+}
+/* section 1 */
+
+#sec .line{
+    background-color: #c0392b;
+    width: 55px;
+    height:5px;
+    border-radius: 2vw;
+}
+.service-box i{
+    color:#ee2f1a;
+    font-size: 4rem;
+    margin: 20px 0;
+}
+.service-box{
+    text-align: center;
+}
+#sec h2::after{
+    background-color: #c0392b;
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 20px auto;
+}
+/* Testimonal */
+.testimonial{
+    background: url(./img/mobile.jpg);
+    background-repeat: no-repeat;
+    background-position-y: center;
+    background-size: cover;
+    color: #fff; 
+}
+
+.testimonial img{
+    border-radius: 50%;
+    margin: 1vw 0;
+}
+.testimonial p{
+    margin: 0;
+}
+/* recent news */
+.recent a:hover{
+    text-decoration: none;
+}
+.recent h4{
+    color: #c0392b;
+}
+.recent a{
+    color: #c0392b;
+}
+.news p{
+    margin: 2px;
+}
+news{
+    margin-bottom: 15px;
+}
+/* footer */
+.footer{
+    background:#34495e;
+    color: #fff;
+    padding: 0;
+}
+.footer h3::after{
+    background-color: #fff;
+    content: " ";
+    display: block;
+    width: 100px;
+    height: 3px;
+    margin: 10px 0;
+}
+.footer p{
+    padding:0;
+    margin: 0;
+}
+.footer a{
+    color: #fff;
+    
+}
+.footer a:hover{
+    text-decoration: none;
+    color: #c0392b;
+}
+.footer li{
+    list-style-type: none;
+    font-size: 2rem;
+    word-spacing: 0.5vw;
+    font-size: 1.2rem;
+}
+.footer ul{
+    margin: 2vw 0;
+    padding: 0;
+}
+.footer i{
+    font-size: 2vw;
+}
+@media (max-width:768px) {
+    #header{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+    }
+    #menu{
+        display: flex;
+        justify-content: center;
+    }
+    .banner-title{
+        padding-top: 1rem;
+    }
+    .testimonial{
+        text-align: center;
+    }
+    .testi-cont,.news{
+        margin-bottom: 15px;
+    }
+    .footer i{
+        font-size: 1.5rem;
+    }
+    .footer ul{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        gap: 10px;
+    }
+}
